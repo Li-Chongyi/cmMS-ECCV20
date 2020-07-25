@@ -10,6 +10,31 @@ TensorFlow implementation of cmMS for RGBD salient object detection
 Python 3
 TensorFlow 1.x
 ```
+
+### Folder structure
+The following shows the basic folder structure.
+```
+
+├── checkpoint
+│   ├── coarse_224 # A pre-trained checkpoint (coarse.model-2850)
+│   │   ├── checkpoint 
+│   │   ├── coarse.model-2850.data-00000-of-00001 
+│   │   ├── coarse.model-2850.index 
+│   │   ├── coarse.model-2850.meta
+├── vgg_pretrained # vgg pretrained model 
+│   ├── imagenet-vgg-verydeep-16
+│   ├── imagenet-vgg-verydeep-19
+│   ├── vgg16.npy
+│   ├── vgg19.npy
+├── main_test.py # testing code
+├── model.py # network
+├── test_real. # put RGB images here
+├── depth_real. # put depth images here
+├── ops.py.py
+├── utils.py
+├── vgg.py
+```
+
 ### Preporcessing
 
 
