@@ -1,5 +1,5 @@
 # RGB-D Salient Object Detection with Cross-Modality Modulation and Selection
-
+Arxiv version: https://arxiv.org/abs/2007.07051
 
 
 # TensorFlow
