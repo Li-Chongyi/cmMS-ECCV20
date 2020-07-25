@@ -14,7 +14,6 @@ TensorFlow 1.x
 ### Folder structure
 The following shows the basic folder structure.
 ```
-
 ├── checkpoint
 │   ├── coarse_224 # A pre-trained checkpoint (coarse.model-2850)
 │   │   ├── checkpoint 
