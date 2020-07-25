@@ -60,11 +60,11 @@ Baidu Cloud: https://pan.baidu.com/s/1DVAwqe3n5JeUIuaAkzteYw  Password: byxj
 ### Test
 ```
 python main_test.py
-
+```
 find the results in the 'test_real' folder with the same name as the input image + "_out".
 
 You can use a script to resize the results back to the same size as the original RGB-D image,  or just use the results with a size of 224*224 for evaluations. We did not find much differences for the evaluation results.
-```
+
 
 ## Bibtex
 
