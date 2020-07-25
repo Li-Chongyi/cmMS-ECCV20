@@ -13,13 +13,13 @@ TensorFlow 1.x
 ### Preporcessing
 
 
-1) download the pretrained VGG model 
+1) download the pretrained VGG model
 ```
 Google Drive: https://drive.google.com/open?id=15WlRLFSYG-mQ73DpUngaUqOnUwtz4PPc
 
 Baidu Cloud: https://pan.baidu.com/s/1DVAwqe3n5JeUIuaAkzteYw  Password: byxj
 ```
-2) download the checkpoint of our model
+2) download the checkpoint of our model and put it to 'checkpoint/coarse_224' folder
 ```
 Google Drive: https://drive.google.com/open?id=15WlRLFSYG-mQ73DpUngaUqOnUwtz4PPc
 
