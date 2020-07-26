@@ -40,7 +40,7 @@ The following shows the basic folder structure.
 1) download the pretrained VGG model
 ```
 Google Drive: https://drive.google.com/file/d/1IDzr2OqoQk2LdecWRoReGnoIsPYYSL-J/view?usp=sharing
-Baidu Cloud:   Password: byxj
+Baidu Cloud:  https://pan.baidu.com/s/1obO2IWLlkfVdXDj7gT5ogg Password: 1234
 ```
 2) download the checkpoint of our model, unzip, and put it to 'checkpoint/coarse_224' folder
 ```
