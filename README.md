@@ -39,15 +39,14 @@ The following shows the basic folder structure.
 
 1) download the pretrained VGG model
 ```
-Google Drive: 
+Google Drive: https://drive.google.com/file/d/1IDzr2OqoQk2LdecWRoReGnoIsPYYSL-J/view?usp=sharing
 Baidu Cloud:   Password: byxj
 ```
-2) download the checkpoint of our model and put it to 'checkpoint/coarse_224' folder
+2) download the checkpoint of our model, unzip, and put it to 'checkpoint/coarse_224' folder
 ```
-Google Drive: 
+Google Drive: https://drive.google.com/file/d/1YsQ4XBe1J3cho7BDM2hW85PpHX5m3-Yx/view?usp=sharing
 
-Baidu Cloud:   Password: byxj
-
+Baidu Cloud:  https://pan.baidu.com/s/1txRl_-xNctC6x3mZAwyRbQ  Password: 1234
 ```
 3) normalize the depth maps (note that the foreground should have higher value than the background in our method)
 
