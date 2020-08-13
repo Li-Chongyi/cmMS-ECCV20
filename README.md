@@ -33,9 +33,14 @@ The following shows the basic folder structure.
 ├── utils.py
 ├── vgg.py
 ```
+### results
 
+We rename the images, so the name of our result is different from the original data. For your evaluations, we also provide the corresponding renamed GT.
+```
+Google Drive: https://drive.google.com/file/d/1uu6Y_IDH6ukdkBkGN9zfYv4K-IYLc9aa/view?usp=sharing
+Baidu Cloud:  https://pan.baidu.com/s/1eXmx0Tm3K5rEn7OlyPDLOg Password: 1234
+```
 ### Preporcessing
-
 
 1) download the pretrained VGG model
 ```
@@ -48,12 +53,15 @@ Google Drive: https://drive.google.com/file/d/1YsQ4XBe1J3cho7BDM2hW85PpHX5m3-Yx/
 
 Baidu Cloud:  https://pan.baidu.com/s/1txRl_-xNctC6x3mZAwyRbQ  Password: 1234
 ```
-3) normalize the depth maps (note that the foreground should have higher value than the background in our method)
 
-2) resize the testing data to the size of 224*224
+3) normalize the depth maps (note that the foreground should have higher value than the background in our method) 
+input=(input-min(min(input)))/(max(max(input))-min(min(input)))
+The step is very important for accurate results.
 
-3) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)
+4) resize the testing data to the size of 224*224
+first normalize depth then resize will be better than first resize depth then normalize in our method. So please strictly follow our steps to generate testing data. 
 
+5) put your rgb images to 'test_real' folder and your depth maps to 'depth_real' folder (paired rgb image and depth map should have same name)
 
 ### Test
 ```
